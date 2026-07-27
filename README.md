@@ -43,19 +43,25 @@ It cleans the text and streams it line-by-line into ksiazki_helion.csv.
 
 To run this script locally:
 
-Clone the repository.
-
-Install dependencies:
-
+1. Clone the repository.
+``` bash
+git clone https://github.com/Twój-Nick/web-automation-tools.git
+```
+2. Navigate to the project folder:
+``` bash
+cd web-automation-tools
+```
+3. Install required dependencies:
+``` bash
 pip install requests beautifulsoup4
-
+```
 
 Run the script:
 ``` bash
 python moj_scraper.py
 ```
 
-Check your folder! The generated ksiazki_helion.csv will be ready to open in Excel.
+5. Check the project directory – the generated ksiazki_helion.csv dataset will be ready for use.
 
 ⚠️ Disclaimer
 
